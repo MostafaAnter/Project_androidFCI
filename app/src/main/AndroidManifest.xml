@@ -1,74 +1,79 @@
-<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.raniamofeed.project_androidfci">
+xmlns:tools="http://schemas.android.com/tools"
+package="com.example.raniamofeed.project_androidfci">
 
-    <uses-feature
-        android:name="android.hardware.camera2"
-        android:required="true" />
+<uses-feature
+    android:name="android.hardware.camera2"
+    android:required="true" />
 
-    <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.CAMERA" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.INTERNET" />
 
-    <application
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher"
-        android:supportsRtl="true"
+<application
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:roundIcon="@mipmap/ic_launcher"
+    android:supportsRtl="true"
+    android:theme="@style/Black.NoTitleBar.Fullscreen"
+    tools:replace="android:icon">
+    <activity
+        android:name=".Log_in"
+        android:windowSoftInputMode="adjustResize|stateAlwaysHidden">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity
+        android:name=".Regsister"
+        android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+    <activity
+        android:name=".Forget_Pass"
+        android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+    <activity
+        android:name=".Update_User"
+        android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+    <activity
+        android:name=".ResultSearch"
+        android:label="@string/title_activity_result_search"
         android:theme="@style/Black.NoTitleBar.Fullscreen"
-        tools:replace="android:icon">
-        <activity
-            android:name=".Log_in"
-            android:windowSoftInputMode="adjustResize|stateAlwaysHidden">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+    <activity
+        android:name=".Book"
+        android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+    <activity
+        android:name=".Favourate"
+        android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+    <activity
+        android:name=".Setting"
+        android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+    <activity
+        android:name=".ProfileDoctor"
+        android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+    <activity
+        android:name=".Doctor_Update"
+        android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+    <activity android:name=".Countact_Us" />
+    <activity
+        android:name=".Check_Code"
+        android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+    <activity
+        android:name=".RestPassword"
+        android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+    <activity android:name=".CheckUP" />
+    <activity
+        android:name=".SearchHome"
+        android:label="@string/title_activity_search_home"
+        android:theme="@style/Black.NoTitleBar.Fullscreen" />
+</application>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".Regsister"
-            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
-        <activity
-            android:name=".Forget_Pass"
-            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
-        <activity
-            android:name=".Update_User"
-            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
-        <activity
-            android:name=".ResultSearch"
-            android:label="@string/title_activity_result_search"
-            android:theme="@style/Black.NoTitleBar.Fullscreen"
-            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
-        <activity
-            android:name=".Book"
-            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
-        <activity
-            android:name=".Favourate"
-            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
-        <activity
-            android:name=".Setting"
-            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
-        <activity
-            android:name=".ProfileDoctor"
-            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
-        <activity
-            android:name=".Doctor_Update"
-            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
-        <activity android:name=".Countact_Us" />
-        <activity
-            android:name=".Check_Code"
-            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
-        <activity
-            android:name=".RestPassword"
-            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
-        <activity android:name=".CheckUP" />
-        <activity
-            android:name=".SearchHome"
-            android:label="@string/title_activity_search_home"
-            android:theme="@style/Black.NoTitleBar.Fullscreen"/>
-    </application>
+
+
+
+
+
 
 </manifest>

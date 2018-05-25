@@ -1,47 +1,127 @@
 package com.example.raniamofeed.project_androidfci;
 
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
+import android.widget.Toast;
+
+import com.example.raniamofeed.project_androidfci.search_results.AbstractModel;
+import com.example.raniamofeed.project_androidfci.search_results.RecyclerViewAdapter;
+
+import java.util.ArrayList;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
 
 public class ResultSearch extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-        LinearLayout r1;
-        Button bb1;
-        ImageView v;
+
+    @BindView(R.id.toolbar)
+    Toolbar toolbar;
+    @BindView(R.id.recycler_view)
+    RecyclerView recyclerView;
+    @BindView(R.id.swipe_refresh_recycler_list)
+    SwipeRefreshLayout swipeRefreshRecyclerList;
+    @BindView(R.id.nav_view)
+    NavigationView navView;
+    @BindView(R.id.drawer_layout)
+    DrawerLayout drawerLayout;
+
+    // @BindView(R.id.recycler_view)
+    // RecyclerView recyclerView;
+
+    //@BindView(R.id.toolbar)
+
+
+    // @BindView(R.id.swipe_refresh_recycler_list)
+    // SwipeRefreshLayout swipeRefreshRecyclerList;
+
+    private RecyclerViewAdapter mAdapter;
+
+    private ArrayList<AbstractModel> modelList = new ArrayList<>();
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_result_search);
+        ButterKnife.bind(this);
+        setAdapter();
 
-        bb1=(Button)findViewById(R.id.button);
-        bb1.setOnClickListener(new View.OnClickListener() {
+        swipeRefreshRecyclerList.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
-            public void onClick(View view) {
-                Intent intent=new Intent(ResultSearch.this,ProfileDoctor.class);
-                startActivity(intent);
+            public void onRefresh() {
+
+                // Do your stuff on refresh
+                new Handler().postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+
+                        if (swipeRefreshRecyclerList.isRefreshing())
+                            swipeRefreshRecyclerList.setRefreshing(false);
+                    }
+                }, 5000);
+
             }
         });
-        r1=(LinearLayout)findViewById(R.id.linear);
-        r1.setOnClickListener(new View.OnClickListener() {
+
+
+        new AsyncTask<Void, Void, Void>() {
             @Override
-            public void onClick(View view) {
-                Intent intent=new Intent(ResultSearch.this,Book.class);
-                startActivity(intent);
+            protected Void doInBackground(Void... voids) {
+                try {
+                    Thread.sleep(2000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                return null;
             }
-        });
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+
+            @Override
+            protected void onPostExecute(Void aVoid) {
+                super.onPostExecute(aVoid);
+                swipeRefreshRecyclerList.setRefreshing(false);
+            }
+
+            @Override
+            protected void onPreExecute() {
+                super.onPreExecute();
+                swipeRefreshRecyclerList.setRefreshing(true);
+            }
+        }.execute();
+
+
+//        bb1=(Button)findViewById(R.id.button);
+//        bb1.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent=new Intent(ResultSearch.this,ProfileDoctor.class);
+//                startActivity(intent);
+//            }
+//        });
+//        r1=(LinearLayout)findViewById(R.id.linear);
+//        r1.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent=new Intent(ResultSearch.this,Book.class);
+//                startActivity(intent);
+//            }
+//        });
+
+
         setSupportActionBar(toolbar);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -52,6 +132,54 @@ public class ResultSearch extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+    }
+
+    private void setAdapter() {
+
+
+        modelList.add(new AbstractModel("Android", "Hello " + " Android"));
+        modelList.add(new AbstractModel("Beta", "Hello " + " Beta"));
+        modelList.add(new AbstractModel("Cupcake", "Hello " + " Cupcake"));
+        modelList.add(new AbstractModel("Donut", "Hello " + " Donut"));
+        modelList.add(new AbstractModel("Eclair", "Hello " + " Eclair"));
+        modelList.add(new AbstractModel("Froyo", "Hello " + " Froyo"));
+        modelList.add(new AbstractModel("Gingerbread", "Hello " + " Gingerbread"));
+        modelList.add(new AbstractModel("Honeycomb", "Hello " + " Honeycomb"));
+        modelList.add(new AbstractModel("Ice Cream Sandwich", "Hello " + " Ice Cream Sandwich"));
+        modelList.add(new AbstractModel("Jelly Bean", "Hello " + " Jelly Bean"));
+        modelList.add(new AbstractModel("KitKat", "Hello " + " KitKat"));
+        modelList.add(new AbstractModel("Lollipop", "Hello " + " Lollipop"));
+        modelList.add(new AbstractModel("Marshmallow", "Hello " + " Marshmallow"));
+        modelList.add(new AbstractModel("Nougat", "Hello " + " Nougat"));
+        modelList.add(new AbstractModel("Android O", "Hello " + " Android O"));
+
+
+        mAdapter = new RecyclerViewAdapter(ResultSearch.this, modelList);
+
+        recyclerView.setHasFixedSize(true);
+
+        // use a linear layout manager
+
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+
+        recyclerView.setLayoutManager(layoutManager);
+
+
+        recyclerView.setAdapter(mAdapter);
+
+
+        mAdapter.SetOnItemClickListener(new RecyclerViewAdapter.OnItemClickListener() {
+            @Override
+            public void onItemClick(View view, int position, AbstractModel model) {
+
+                //handle item click events here
+                Toast.makeText(ResultSearch.this, "Hey " + model.getTitle(), Toast.LENGTH_SHORT).show();
+
+
+            }
+        });
+
+
     }
 
     @Override
@@ -93,22 +221,22 @@ public class ResultSearch extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_camera) {
-            Intent intent=new Intent(ResultSearch.this,Favourate.class);
+            Intent intent = new Intent(ResultSearch.this, Favourate.class);
             startActivity(intent);
         } else if (id == R.id.nav_slideshow) {
-            Intent intent=new Intent(ResultSearch.this,SearchHome.class);
+            Intent intent = new Intent(ResultSearch.this, SearchHome.class);
             startActivity(intent);
         } else if (id == R.id.nav_manage) {
-            Intent intent=new Intent(ResultSearch.this,CheckUP.class);
+            Intent intent = new Intent(ResultSearch.this, CheckUP.class);
             startActivity(intent);
         } else if (id == R.id.nav_manage2) {
-            Intent intent=new Intent(ResultSearch.this,Setting.class);
+            Intent intent = new Intent(ResultSearch.this, Setting.class);
             startActivity(intent);
         } else if (id == R.id.nav_share) {
-            Intent intent=new Intent(ResultSearch.this,Doctor_Update.class);
+            Intent intent = new Intent(ResultSearch.this, Doctor_Update.class);
             startActivity(intent);
         } else if (id == R.id.nav_send) {
-            Intent intent=new Intent(ResultSearch.this,Countact_Us.class);
+            Intent intent = new Intent(ResultSearch.this, Countact_Us.class);
             startActivity(intent);
         }
 

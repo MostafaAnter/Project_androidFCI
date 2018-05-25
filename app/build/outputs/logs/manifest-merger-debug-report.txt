@@ -1,66 +1,66 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:2:1-74:12
-INJECTED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:2:1-74:12
-INJECTED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:2:1-74:12
-INJECTED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:2:1-74:12
+ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:1:1-79:12
+INJECTED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:1:1-79:12
+INJECTED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:1:1-79:12
+INJECTED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:1:1-79:12
 MERGED from [com.android.support:design:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/a7f0da48eb47c897f20334e54b614650/AndroidManifest.xml:17:1-31:12
 MERGED from [com.github.f0ris.sweetalert:library:1.5.3] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/library-1.5.3.aar/39a03091482baac08dde324719c5b3b4/AndroidManifest.xml:2:1-13:12
 MERGED from [com.pnikosis:materialish-progress:1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/materialish-progress-1.0.aar/f59b8dfd4407dc3fb3ee381015fc8995/AndroidManifest.xml:2:1-17:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6d893e37ce80b39232433f653dbd4400/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/6a267144e17b5c181b354b7c5efdf973/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:cardview-v7:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/0ddce6c8fdf47a8abae891870249cf8c/AndroidManifest.xml:17:1-28:12
-MERGED from [com.jakewharton:butterknife:8.5.1] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/butterknife-8.5.1.aar/c799a0e9166dc33da5bb54f9af894f62/AndroidManifest.xml:2:1-7:12
 MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/f215aafb8e1d67f7b7f09c4acfb0a009/AndroidManifest.xml:17:1-28:12
+MERGED from [com.jakewharton:butterknife:8.5.1] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/butterknife-8.5.1.aar/c799a0e9166dc33da5bb54f9af894f62/AndroidManifest.xml:2:1-7:12
 MERGED from [com.android.support:transition:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/86f224d906972eff5ff18a2e8507b4dd/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/17c0d988415a770885d575cdc15e2354/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/12ad589c58a8541e71bbe3fb88cb060e/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-fragment:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/af46edc46a61353b6c96ad820de06f1d/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/2387433ada3d60c76af4c5b73c944499/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/9ee788abda1cfbe36af095dfc149fdb3/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-core-ui:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c9e497feb79ab4cbf6a37ee3c7edb58d/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/12ad589c58a8541e71bbe3fb88cb060e/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/2387433ada3d60c76af4c5b73c944499/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/a2a37fcbebd05a2ff6ce45c6b21089a8/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-compat:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ec8f7746d843b50cc529629852db0ca0/AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/783f44a7fce0251a5d8ae91d4fef14a9/AndroidManifest.xml:17:1-30:12
-INJECTED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:2:1-74:12
-INJECTED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:2:1-74:12
-INJECTED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:2:1-74:12
+INJECTED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:1:1-79:12
+INJECTED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:1:1-79:12
+INJECTED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:1:1-79:12
 	package
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:4:5-57
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:3:1-53
 		INJECTED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml
 		INJECTED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:2:1-74:12
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:1:1-79:12
 		INJECTED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:2:1-47
 	android:versionCode
 		INJECTED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:2:1-74:12
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:1:1-79:12
 		INJECTED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:1:11-69
 uses-feature#android.hardware.camera2
-ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:6:5-8:35
+ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:5:1-7:31
 	android:required
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:8:9-32
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:7:5-28
 	android:name
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:7:9-48
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:6:5-44
 uses-permission#android.permission.CAMERA
-ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:10:5-65
+ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:9:1-61
 	android:name
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:10:22-62
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:9:18-58
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:11:5-81
+ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:10:1-77
 	android:name
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:11:22-78
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:10:18-74
 uses-permission#android.permission.INTERNET
-ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:12:5-67
+ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:11:1-63
 	android:name
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:12:22-64
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:11:18-60
 application
-ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:14:5-72:19
+ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:13:1-71:15
 MERGED from [com.android.support:design:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/a7f0da48eb47c897f20334e54b614650/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/a7f0da48eb47c897f20334e54b614650/AndroidManifest.xml:25:5-29:19
 MERGED from [com.github.f0ris.sweetalert:library:1.5.3] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/library-1.5.3.aar/39a03091482baac08dde324719c5b3b4/AndroidManifest.xml:11:5-20
@@ -79,16 +79,16 @@ MERGED from [com.android.support:transition:26.1.0] /home/mostafa_anter/.gradle/
 MERGED from [com.android.support:transition:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/86f224d906972eff5ff18a2e8507b4dd/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-v4:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/17c0d988415a770885d575cdc15e2354/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-v4:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/17c0d988415a770885d575cdc15e2354/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/12ad589c58a8541e71bbe3fb88cb060e/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/12ad589c58a8541e71bbe3fb88cb060e/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-fragment:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/af46edc46a61353b6c96ad820de06f1d/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-fragment:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/af46edc46a61353b6c96ad820de06f1d/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/2387433ada3d60c76af4c5b73c944499/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/2387433ada3d60c76af4c5b73c944499/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/9ee788abda1cfbe36af095dfc149fdb3/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/9ee788abda1cfbe36af095dfc149fdb3/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-core-ui:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c9e497feb79ab4cbf6a37ee3c7edb58d/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-core-ui:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c9e497feb79ab4cbf6a37ee3c7edb58d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/12ad589c58a8541e71bbe3fb88cb060e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/12ad589c58a8541e71bbe3fb88cb060e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/2387433ada3d60c76af4c5b73c944499/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/2387433ada3d60c76af4c5b73c944499/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/a2a37fcbebd05a2ff6ce45c6b21089a8/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/a2a37fcbebd05a2ff6ce45c6b21089a8/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-compat:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ec8f7746d843b50cc529629852db0ca0/AndroidManifest.xml:25:5-29:19
@@ -96,122 +96,122 @@ MERGED from [com.android.support:support-compat:26.1.0] /home/mostafa_anter/.gra
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/783f44a7fce0251a5d8ae91d4fef14a9/AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/783f44a7fce0251a5d8ae91d4fef14a9/AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:19:9-35
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:18:5-31
 	android:label
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:17:9-41
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:16:5-37
 	android:roundIcon
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:18:9-48
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:17:5-44
 	android:icon
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:16:9-43
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:15:5-39
 		REJECTED from [com.pnikosis:materialish-progress:1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/materialish-progress-1.0.aar/f59b8dfd4407dc3fb3ee381015fc8995/AndroidManifest.xml:13:9-45
 	android:allowBackup
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:15:9-35
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:14:5-31
 	android:theme
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:20:9-59
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:19:5-55
 	tools:replace
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:21:9-37
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:20:5-33
 activity#com.example.raniamofeed.project_androidfci.Log_in
-ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:22:9-30:20
+ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:21:5-29:16
 	android:windowSoftInputMode
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:24:13-73
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:23:9-69
 	android:name
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:23:13-35
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:22:9-31
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:25:13-29:29
+ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:24:9-28:25
 action#android.intent.action.MAIN
-ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:26:17-69
+ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:25:13-65
 	android:name
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:26:25-66
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:25:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:28:17-77
+ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:27:13-73
 	android:name
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:28:27-74
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:27:23-70
 activity#com.example.raniamofeed.project_androidfci.Regsister
-ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:31:9-33:76
+ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:30:5-32:72
 	android:windowSoftInputMode
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:33:13-73
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:32:9-69
 	android:name
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:32:13-38
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:31:9-34
 activity#com.example.raniamofeed.project_androidfci.Forget_Pass
-ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:34:9-36:76
+ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:33:5-35:72
 	android:windowSoftInputMode
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:36:13-73
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:35:9-69
 	android:name
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:35:13-40
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:34:9-36
 activity#com.example.raniamofeed.project_androidfci.Update_User
-ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:37:9-39:76
+ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:36:5-38:72
 	android:windowSoftInputMode
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:39:13-73
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:38:9-69
 	android:name
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:38:13-40
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:37:9-36
 activity#com.example.raniamofeed.project_androidfci.ResultSearch
-ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:40:9-44:76
+ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:39:5-43:72
 	android:label
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:42:13-65
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:41:9-61
 	android:windowSoftInputMode
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:44:13-73
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:43:9-69
 	android:theme
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:43:13-63
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:42:9-59
 	android:name
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:41:13-41
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:40:9-37
 activity#com.example.raniamofeed.project_androidfci.Book
-ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:45:9-47:76
+ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:44:5-46:72
 	android:windowSoftInputMode
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:47:13-73
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:46:9-69
 	android:name
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:46:13-33
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:45:9-29
 activity#com.example.raniamofeed.project_androidfci.Favourate
-ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:48:9-50:76
+ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:47:5-49:72
 	android:windowSoftInputMode
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:50:13-73
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:49:9-69
 	android:name
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:49:13-38
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:48:9-34
 activity#com.example.raniamofeed.project_androidfci.Setting
-ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:51:9-53:76
+ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:50:5-52:72
 	android:windowSoftInputMode
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:53:13-73
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:52:9-69
 	android:name
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:52:13-36
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:51:9-32
 activity#com.example.raniamofeed.project_androidfci.ProfileDoctor
-ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:54:9-56:76
+ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:53:5-55:72
 	android:windowSoftInputMode
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:56:13-73
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:55:9-69
 	android:name
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:55:13-42
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:54:9-38
 activity#com.example.raniamofeed.project_androidfci.Doctor_Update
-ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:57:9-59:76
+ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:56:5-58:72
 	android:windowSoftInputMode
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:59:13-73
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:58:9-69
 	android:name
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:58:13-42
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:57:9-38
 activity#com.example.raniamofeed.project_androidfci.Countact_Us
-ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:60:9-49
+ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:59:5-45
 	android:name
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:60:19-46
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:59:15-42
 activity#com.example.raniamofeed.project_androidfci.Check_Code
-ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:61:9-63:76
+ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:60:5-62:72
 	android:windowSoftInputMode
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:63:13-73
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:62:9-69
 	android:name
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:62:13-39
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:61:9-35
 activity#com.example.raniamofeed.project_androidfci.RestPassword
-ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:64:9-66:76
+ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:63:5-65:72
 	android:windowSoftInputMode
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:66:13-73
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:65:9-69
 	android:name
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:65:13-41
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:64:9-37
 activity#com.example.raniamofeed.project_androidfci.CheckUP
-ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:67:9-45
+ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:66:5-41
 	android:name
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:67:19-42
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:66:15-38
 activity#com.example.raniamofeed.project_androidfci.SearchHome
-ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:68:9-71:65
+ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:67:5-70:62
 	android:label
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:70:13-63
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:69:9-59
 	android:theme
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:71:13-63
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:70:9-59
 	android:name
-		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:69:13-39
+		ADDED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml:68:9-35
 uses-sdk
 INJECTED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/AndroidManifest.xml
@@ -228,24 +228,24 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/mosta
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/6a267144e17b5c181b354b7c5efdf973/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:cardview-v7:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/0ddce6c8fdf47a8abae891870249cf8c/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cardview-v7:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/0ddce6c8fdf47a8abae891870249cf8c/AndroidManifest.xml:20:5-44
-MERGED from [com.jakewharton:butterknife:8.5.1] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/butterknife-8.5.1.aar/c799a0e9166dc33da5bb54f9af894f62/AndroidManifest.xml:5:5-43
-MERGED from [com.jakewharton:butterknife:8.5.1] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/butterknife-8.5.1.aar/c799a0e9166dc33da5bb54f9af894f62/AndroidManifest.xml:5:5-43
 MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/f215aafb8e1d67f7b7f09c4acfb0a009/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/f215aafb8e1d67f7b7f09c4acfb0a009/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:8.5.1] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/butterknife-8.5.1.aar/c799a0e9166dc33da5bb54f9af894f62/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.5.1] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/butterknife-8.5.1.aar/c799a0e9166dc33da5bb54f9af894f62/AndroidManifest.xml:5:5-43
 MERGED from [com.android.support:transition:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/86f224d906972eff5ff18a2e8507b4dd/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/86f224d906972eff5ff18a2e8507b4dd/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/17c0d988415a770885d575cdc15e2354/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-v4:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/17c0d988415a770885d575cdc15e2354/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/12ad589c58a8541e71bbe3fb88cb060e/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/12ad589c58a8541e71bbe3fb88cb060e/AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-fragment:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/af46edc46a61353b6c96ad820de06f1d/AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-fragment:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/af46edc46a61353b6c96ad820de06f1d/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/2387433ada3d60c76af4c5b73c944499/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/2387433ada3d60c76af4c5b73c944499/AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/9ee788abda1cfbe36af095dfc149fdb3/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/9ee788abda1cfbe36af095dfc149fdb3/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c9e497feb79ab4cbf6a37ee3c7edb58d/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-core-ui:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c9e497feb79ab4cbf6a37ee3c7edb58d/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/12ad589c58a8541e71bbe3fb88cb060e/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/12ad589c58a8541e71bbe3fb88cb060e/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/2387433ada3d60c76af4c5b73c944499/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/2387433ada3d60c76af4c5b73c944499/AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/a2a37fcbebd05a2ff6ce45c6b21089a8/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/a2a37fcbebd05a2ff6ce45c6b21089a8/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ec8f7746d843b50cc529629852db0ca0/AndroidManifest.xml:21:5-23:58
@@ -276,16 +276,16 @@ MERGED from [com.android.support:transition:26.1.0] /home/mostafa_anter/.gradle/
 MERGED from [com.android.support:transition:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/86f224d906972eff5ff18a2e8507b4dd/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-v4:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/17c0d988415a770885d575cdc15e2354/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-v4:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/17c0d988415a770885d575cdc15e2354/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/12ad589c58a8541e71bbe3fb88cb060e/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/12ad589c58a8541e71bbe3fb88cb060e/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-fragment:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/af46edc46a61353b6c96ad820de06f1d/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-fragment:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/af46edc46a61353b6c96ad820de06f1d/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/2387433ada3d60c76af4c5b73c944499/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/2387433ada3d60c76af4c5b73c944499/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/9ee788abda1cfbe36af095dfc149fdb3/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/9ee788abda1cfbe36af095dfc149fdb3/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-core-ui:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c9e497feb79ab4cbf6a37ee3c7edb58d/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-core-ui:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c9e497feb79ab4cbf6a37ee3c7edb58d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/12ad589c58a8541e71bbe3fb88cb060e/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/12ad589c58a8541e71bbe3fb88cb060e/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/2387433ada3d60c76af4c5b73c944499/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/2387433ada3d60c76af4c5b73c944499/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/a2a37fcbebd05a2ff6ce45c6b21089a8/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/a2a37fcbebd05a2ff6ce45c6b21089a8/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-compat:26.1.0] /home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ec8f7746d843b50cc529629852db0ca0/AndroidManifest.xml:26:9-28:38

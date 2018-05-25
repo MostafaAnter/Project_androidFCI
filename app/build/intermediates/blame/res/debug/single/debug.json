@@ -1184,6 +1184,10 @@
         "source": "/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/res/drawable/logo_skype.png"
     },
     {
+        "merged": "/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/intermediates/res/merged/debug/layout_item_recycler.xml.flat",
+        "source": "/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/res/layout/item_recycler.xml"
+    },
+    {
         "merged": "/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/intermediates/res/merged/debug/drawable_design_password_eye.xml.flat",
         "source": "/home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/a7f0da48eb47c897f20334e54b614650/res/drawable/design_password_eye.xml"
     },
