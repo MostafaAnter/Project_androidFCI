@@ -1,0 +1,13 @@
+#Fri May 25 15:28:03 EET 2018
+path.3=classes.dex
+path.2=classes.dex
+path.1=classes.dex
+path.0=classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.3=/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/intermediates/transforms/dexMerger/debug/15
+base.2=/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/intermediates/transforms/dexMerger/debug/12
+base.1=/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/intermediates/transforms/dexMerger/debug/14
+base.0=/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/intermediates/transforms/dexMerger/debug/13

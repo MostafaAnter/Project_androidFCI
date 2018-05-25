@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/assets"/><source path="/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/debug/assets"/></dataSet></merger>
