@@ -22,6 +22,8 @@ import android.widget.TabHost;
 import android.widget.TabWidget;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+import com.example.raniamofeed.project_androidfci.utility.CircleTransform;
 import com.example.raniamofeed.project_androidfci.utility.SweetDialogHelper;
 
 import java.util.Calendar;
@@ -259,6 +261,12 @@ public class ProfileDoctor extends AppCompatActivity {
                         });
             }
         });
+
+
+        Glide.with(this)   // pass Context
+                .load(R.drawable.image5) // add your image url
+                .transform(new CircleTransform(this)) // applying the image transformer
+                .into(imageView);
 
 
     }

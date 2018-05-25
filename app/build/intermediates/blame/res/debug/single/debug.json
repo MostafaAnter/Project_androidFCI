@@ -496,10 +496,6 @@
         "source": "/home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6d893e37ce80b39232433f653dbd4400/res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/intermediates/res/merged/debug/menu_search_home.xml.flat",
-        "source": "/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/res/menu/search_home.xml"
-    },
-    {
         "merged": "/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
         "source": "/home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6d893e37ce80b39232433f653dbd4400/res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png"
     },
@@ -582,10 +578,6 @@
     {
         "merged": "/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
         "source": "/home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6d893e37ce80b39232433f653dbd4400/res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/intermediates/res/merged/debug/menu_result_search.xml.flat",
-        "source": "/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/res/menu/result_search.xml"
     },
     {
         "merged": "/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/intermediates/res/merged/debug/drawable_image3.jpeg.flat",
