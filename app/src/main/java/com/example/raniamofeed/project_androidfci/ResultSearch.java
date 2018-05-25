@@ -104,22 +104,6 @@ public class ResultSearch extends AppCompatActivity
         }.execute();
 
 
-//        bb1=(Button)findViewById(R.id.button);
-//        bb1.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent=new Intent(ResultSearch.this,ProfileDoctor.class);
-//                startActivity(intent);
-//            }
-//        });
-//        r1=(LinearLayout)findViewById(R.id.linear);
-//        r1.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent=new Intent(ResultSearch.this,Book.class);
-//                startActivity(intent);
-//            }
-//        });
 
 
         setSupportActionBar(toolbar);
@@ -173,7 +157,7 @@ public class ResultSearch extends AppCompatActivity
             public void onItemClick(View view, int position, AbstractModel model) {
 
                 //handle item click events here
-                Toast.makeText(ResultSearch.this, "Hey " + model.getTitle(), Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(ResultSearch.this, ProfileDoctor.class));
 
 
             }

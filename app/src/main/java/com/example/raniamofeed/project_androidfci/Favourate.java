@@ -1,5 +1,6 @@
 package com.example.raniamofeed.project_androidfci;
 
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Handler;
 import android.support.v4.widget.SwipeRefreshLayout;
@@ -140,7 +141,7 @@ public class Favourate extends AppCompatActivity {
             public void onItemClick(View view, int position, AbstractModel model) {
 
                 //handle item click events here
-                Toast.makeText(Favourate.this, "Hey " + model.getTitle(), Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(Favourate.this, ProfileDoctor.class));
 
 
             }

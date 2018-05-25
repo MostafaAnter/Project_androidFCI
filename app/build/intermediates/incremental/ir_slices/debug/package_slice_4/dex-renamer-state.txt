@@ -1,4 +1,4 @@
-#Fri May 25 16:41:23 EET 2018
+#Fri May 25 17:28:33 EET 2018
 base.0=/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/intermediates/transforms/dexMerger/debug/5
 path.0=classes.dex
 renamed.0=classes.dex
