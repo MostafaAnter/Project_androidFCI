@@ -13,6 +13,7 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 import com.example.raniamofeed.project_androidfci.utility.CircleTransform;
 import com.example.raniamofeed.project_androidfci.utility.SweetDialogHelper;
+import com.example.raniamofeed.project_androidfci.utility.Utils;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -120,9 +121,9 @@ public class Log_in extends AppCompatActivity {
                     @Override
                     protected void onPreExecute() {
                         super.onPreExecute();
-                        if (etUsername.getText().toString().isEmpty()
+                        if (! Utils.isEmailValid(etUsername.getText().toString().trim()) || etUsername.getText().toString().isEmpty()
                                 || etPassword.getText().toString().isEmpty()) {
-                            sdh.showErrorMessage("Failed!", "Can't let any field empty");
+                            sdh.showErrorMessage("Failed!", "Enter valid data!");
                         } else {
                             sdh.showWithTimmer(new SweetDialogHelper.DoAction() {
                                 @Override

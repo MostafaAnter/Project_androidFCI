@@ -18,6 +18,7 @@ import com.example.raniamofeed.project_androidfci.R;
 import com.example.raniamofeed.project_androidfci.utility.CircleTransform;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -33,6 +34,22 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
 
     private OnItemClickListener mItemClickListener;
 
+
+
+    Random rand = new Random();
+    // nextInt as provided by Random is exclusive of the top value so you need to add 1
+
+    String[] splist = {"", "Cardiothoracic", "Reconstructive",
+    "Neurosurgery", "Ophthalmology", "Speech-Language", "Cardiology",
+    "Infectious Diseases", "Emergency Medicine", "Anesthesiology", "Radiology"};
+
+    String[] namesOfDoc = {"", "Dr Ahmed Kashaba", "Dr Mohamed Saad",
+            "Dr Wafaa Ahmed", "Dr Mostafa Anter", "Dr Sabreen Mostafa", "Dr Mina Nabil",
+            "Dr Tawfeek Akrm", "Dr Sara Abd El Fatah", "Dr Hassan Ramadan", "Dr Ebraheem Saad"};
+
+    int[] images = {0, R.drawable.image1, R.drawable.image2, R.drawable.image3,
+            R.drawable.image4, R.drawable.image5, R.drawable.image6, R.drawable.image7,
+            R.drawable.image8, R.drawable.image9, R.drawable.image10};
 
     public RecyclerViewAdapter(Context context, ArrayList<AbstractModel> modelList) {
         this.mContext = context;
@@ -81,14 +98,13 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
                     mContext.startActivity(new Intent(mContext, Book.class));
                 }
             });
-
-
             Glide.with(mContext)   // pass Context
-                    .load(R.drawable.image5) // add your image url
+                    .load(images[rand.nextInt((10 - 1) + 1) + 1]) // add your image url
                     .transform(new CircleTransform(mContext)) // applying the image transformer
                     .into(genericViewHolder.imageView);
 
-
+            genericViewHolder.name.setText(namesOfDoc[rand.nextInt((10 - 1) + 1) + 1]);
+            genericViewHolder.mail.setText(splist[rand.nextInt((10 - 1) + 1) + 1]);
         }
     }
 

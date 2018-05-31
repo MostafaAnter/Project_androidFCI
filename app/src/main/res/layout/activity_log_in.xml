@@ -36,7 +36,7 @@
         android:drawableLeft="@drawable/avatar"
         android:drawablePadding="60dp"
         android:ems="10"
-        android:hint="Username"
+        android:hint="e-mail"
         android:inputType="textPersonName"
         android:textSize="16dp" />
 

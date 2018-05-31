@@ -18,6 +18,8 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
 
+import com.example.raniamofeed.project_androidfci.utility.SweetDialogHelper;
+
 import cn.pedant.SweetAlert.SweetAlertDialog;
 
 public class SearchHome extends AppCompatActivity
@@ -91,11 +93,13 @@ public class SearchHome extends AppCompatActivity
             @Override
             protected void onPostExecute(Void aVoid) {
                 super.onPostExecute(aVoid);
-                new SweetAlertDialog(SearchHome.this, SweetAlertDialog.CUSTOM_IMAGE_TYPE)
-                        .setTitleText("Sweet!")
-                        .setContentText("Welcome Dr.Sara")
-                        .setCustomImage(R.drawable.image3)
-                        .show();
+                new SweetDialogHelper(SearchHome.this).showSuccessfulMessage("Welcome!",
+                        "E7gzly ready to use.", new SweetDialogHelper.DoAction() {
+                            @Override
+                            public void doSomeThing() {
+
+                            }
+                        });
             }
         }.execute();
     }

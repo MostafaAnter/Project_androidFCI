@@ -5,56 +5,32 @@
     build-mode="COLD"
     density="xxhdpi"
     format="10"
-    ir-eligibility="R_CLASS_CHANGE"
+    ir-eligibility="FIELD_ADDED"
     plugin-version="3.1.2"
-    timestamp="1527263249929"
+    timestamp="1527780563296"
     token="3048794754104618032"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="654" />
+        duration="675" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="191" />
+        duration="29" />
     <task
         name="verifier"
-        duration="9" />
+        duration="4" />
 
-    <artifact
-        location="/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-        type="SPLIT" />
     <artifact
         location="/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
         type="SPLIT" />
-    <artifact
-        location="/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1527260197249"
+        timestamp="1527777971826"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
@@ -95,8 +71,8 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1527263249929"
+        ir-eligibility="FIELD_TYPE_CHANGE"
+        timestamp="1527779884260"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
@@ -117,14 +93,20 @@
             location="/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
             location="/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
             location="/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="FIELD_ADDED"
+        timestamp="1527780563296"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
     </build>
 
 </instant-run>

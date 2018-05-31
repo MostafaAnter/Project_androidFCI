@@ -300,6 +300,10 @@
         "source": "/home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6d893e37ce80b39232433f653dbd4400/res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
+        "merged": "/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/intermediates/res/merged/debug/drawable_image8.jpeg.flat",
+        "source": "/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/res/drawable/image8.jpeg"
+    },
+    {
         "merged": "/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/intermediates/res/merged/debug/color_design_error.xml.flat",
         "source": "/home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/a7f0da48eb47c897f20334e54b614650/res/color/design_error.xml"
     },
@@ -1568,6 +1572,10 @@
         "source": "/home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6d893e37ce80b39232433f653dbd4400/res/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
+        "merged": "/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/intermediates/res/merged/debug/drawable_image10.jpeg.flat",
+        "source": "/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/res/drawable/image10.jpeg"
+    },
+    {
         "merged": "/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/intermediates/res/merged/debug/drawable_warning_sigh.xml.flat",
         "source": "/home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/library-1.5.3.aar/39a03091482baac08dde324719c5b3b4/res/drawable/warning_sigh.xml"
     },
@@ -1798,6 +1806,10 @@
     {
         "merged": "/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/intermediates/res/merged/debug/color-v23_abc_tint_btn_checkable.xml.flat",
         "source": "/home/mostafa_anter/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6d893e37ce80b39232433f653dbd4400/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/intermediates/res/merged/debug/drawable_image9.jpeg.flat",
+        "source": "/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/src/main/res/drawable/image9.jpeg"
     },
     {
         "merged": "/home/mostafa_anter/Downloads/Project_androidFCI-20180524T174240Z-001/Project_androidFCI/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_black_36dp.png.flat",
